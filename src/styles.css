@@ -1,0 +1,148 @@
+header{
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  padding: 8px;
+  margin: 0;
+  margin-bottom: 50px;
+  height: 80px;
+  left: 0;
+  right: 0;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #ffe300;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+.button:hover  {
+  background-color: #ff7f3f;
+  transform: scale(1.14);
+  transition: 0.5s;
+ 
+}
+#loading{
+  position: fixed;
+  z-index:-1;
+  top:150px;
+  left:50%
+ 
+}
+.parent{
+  position:absolute;
+  top:80px;
+  left:0;
+  right:0;
+}
+.contains{
+  position:relative;
+  background-color: #F9C5D5;
+  padding: 0px;
+  z-index: 100;
+  
+}
+.container {
+  position: relative;
+  margin-left:2px ;
+  padding: 10px;
+  display: inline-block;
+  align-items: right;
+  z-index: 500;
+  transition: 0.5s;
+ 
+}
+.card {
+  padding: 20px;
+  float: left;
+  background: rgb(165, 96, 96);
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 250px;
+  height: 300px;
+  margin: 30px;
+ 
+}
+.card:hover {
+  background: rgb(138, 65, 65);
+  border-radius: 3px solid black;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.img {
+  display: flex;
+  border-radius: 100px;
+  border: 1px solid black;
+  justify-items: center;
+  align-items: center;
+}
+.img:hover {
+  transform: scale(1.15);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.name {
+  font-size: 25px;
+}
+.name:hover {
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: violet;
+  padding:5px;
+}
+.email
+{
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid white;
+  padding:4px;
+  border-radius:10px;
+  color: #fff;
+  background: #000;
+}
+.id{
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  padding: 4px;
+  color: #fff;
+  background: #000;
+}
+
+footer{
+  position:fixed;
+  width: 100%;
+  bottom:0;
+  left: 0;
+  display: block;
+  background: #000;
+  height: 10vh;
+  z-index: 500;
+}
+.foot{
+  padding: 10px;
+  color: #ffff;
+}
